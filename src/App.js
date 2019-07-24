@@ -2,7 +2,10 @@ import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect';
-import HomePage from './pages/homepage/homepage.component';
+
+//import HomePage from './pages/homepage/homepage.component';
+import HomePage from './pages/HomePage/HomePage.component';
+
 import ShopPage from './pages/shop/shop.component';
 import Header  from './components/header/header.component';
 import SignInAndSignUpPage  from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
