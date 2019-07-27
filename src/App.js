@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+//import styled from 'styled-components'
 
 //import HomePage from './pages/homepage/homepage.component';
 import HomePage from './pages/homepage/homepage.component';
@@ -15,8 +16,9 @@ import Header  from './components/header/header.component';
 import { setCurrentUser } from './redux/user/user.actions'
 import { selectCurrentUser  } from './redux/user/user.selectors'
 
-
 import './App.css';
+
+
 
 class App extends React.Component {  
   unsubscribeFromAuth = null;
